@@ -79,7 +79,7 @@ if __name__ == "__main__":
     sit = np.array(readFilesintoArray(path2))
     jog = np.array(readFilesintoArray(path3))
 
-    # plotdata(walk,1)
+    plotdata(walk,1)
 
     walkRMS = np.array(findRMS(walk,text="walk"))
     sitRMS = np.array(findRMS(sit,text="sit"))
